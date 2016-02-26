@@ -1,0 +1,156 @@
+/****************************
+      BASE STYLES
+****************************/
+
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
+  margin: 0;
+}
+
+
+.submit-section {
+  margin-top: 60px;
+}
+
+
+h1 {
+  font-size:1.40em;
+  font-weight: bold;
+  color: #fff;
+  background: #333;
+  margin: 0;
+  padding: 30px;
+  text-align: center;
+}
+.sub-header {
+  text-align: center;
+  margin: 60px 10px;
+}
+
+#one {
+  border-bottom: 6px solid #000;
+  margin: 0 auto;
+  max-width: 90%;
+}
+#two {
+  border-top: 3px solid #333;
+  margin: 5px auto;
+  max-width: 90%;
+}
+
+form {
+  margin: 40px auto;
+}
+
+fieldset{
+  border: none;
+}
+
+legend{
+  font-size: .9em;
+  margin: 20px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+label[for]{
+  display: block;
+  padding-bottom: 10px;
+  font-size: .9em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="submit"],
+textarea,
+select {
+  border: none;
+  font-size: 1em;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 3px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input[placeholder] {
+  text-align: right;
+  font-size: .8em;
+  font-style: italic;
+}
+
+#zip {
+  max-width: 30%;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline-block;
+  margin: 15px 0;
+}
+input[type="submit"] {
+  display: inline-block;
+  background: #2ABF5E;
+  color: #333;
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+footer {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+
+/***********************
+MEDIA QUERIES
+***********************/
+
+@media screen and ( min-width: 740px) {
+
+  form {
+  max-width: 70%;
+  margin: 40px auto;
+ 
+}
+
+  #one,
+  #two {
+    width: 90%;
+  }
+
+  label[for] {
+    display: inline-block;
+    width: 30%;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="checkbox"],
+  input[type="radio"],
+  select {
+    display: inline-block;
+    max-width: 68%;
+  }
+   
+
+}
+
+
+
+
