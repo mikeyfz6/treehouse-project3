@@ -77,23 +77,24 @@
 		<legend>Newsletter</legend>
 
 		<p>Select the newsletter you would like to recieve:</p>
-			<input type="checkbox" name="html" value="html" checked="checked"> <label>HTML News</label><br/>
-			<input type="checkbox" name="css" value="css"><label>CSS News</label><br/>
-			<input type="checkbox" name="javacript" value="javascript"><label> JavacriptNews</label>
+			<input type="checkbox" name="html" value="html" checked="checked" id="html"> <label for="html">HTML News</label><br/>
+			<input type="checkbox" name="css" value="css" id="css"><label for="css">CSS News</label><br/>
+			<input type="checkbox" name="javacript" value="javascript" id="java-s"><label for="java-s"> JavacriptNews</label>
 		
 		
 		<p>Newsletter Format</p>
-			<input type="radio" name="format" value="html"><label>HTML</label><br/>
-			<input type="radio" name="format" value="p-text"><label>Plain Text</label><br/>
+			<input type="radio" name="format" value="html" id="html-2"><label for="html-2">HTML</label><br/>
+			<input type="radio" name="format" value="p-text" id="p-text"><label for="p-text">Plain Text</label><br/>
 
-			<p>Other topics you would like to hear about:</p>
-
+			<label for="topics">Other topics you would like to hear about:</label>
 			<textarea name="topics" id="topics"></textarea>
 	</fieldset>
+
 	</div>
 			<input type="submit" name="submit" value="sign up">
 		</form>
 	</div>
+
 	<footer>
 		<p>&copy;The code review</p>
 	</footer>
